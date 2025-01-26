@@ -271,6 +271,24 @@ export default function AtmMachine() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
       <div className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
         <h1 className="text-3xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">ATM Machine</h1>
+        
+        {/* Added Account Information Display */}
+        <div className="mb-6 p-4 bg-gray-50 rounded-lg text-sm">
+          <h2 className="font-bold mb-2 text-gray-700">Test Accounts:</h2>
+          <div className="space-y-4">
+            <div>
+              <p className="font-medium">Account 1:</p>
+              <p>Card: 1234567890123456</p>
+              <p>PIN: 1234</p>
+            </div>
+            <div>
+              <p className="font-medium">Account 2:</p>
+              <p>Card: 9876543210987654</p>
+              <p>PIN: 4321</p>
+            </div>
+          </div>
+        </div>
+
         {error && (
           <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-lg mb-6">
             <div className="flex">
