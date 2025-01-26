@@ -1,8 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ATM Money Transfer Prototype
 
-## Getting Started
+A modern web application simulating ATM money transfer operations, built with Next.js and TypeScript. This project demonstrates a user-friendly interface for conducting secure money transfers through an ATM system.
 
-First, run the development server:
+## Features
+
+- Intuitive ATM interface
+- Step-by-step money transfer process
+- Real-time transaction validation
+- Responsive design for all devices
+- Modern UI with Tailwind CSS
+
+## Technology Stack
+
+- [Next.js](https://nextjs.org) - React framework for production
+- TypeScript - For type-safe code
+- Tailwind CSS - For styling
+- Context API - For state management
+
+## Prerequisites
+
+Before you begin, ensure you have installed:
+- Node.js (version 16.x or higher)
+- npm, yarn, pnpm, or bun package manager
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/atmMoneyTransferPrototipe.git
+cd atmMoneyTransferPrototipe
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+## Development
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +56,40 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+/src
+  /app        # Next.js app directory
+  /components # React components
+  /lib        # Utilities and contexts
+/public       # Static assets
+```
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features
+- [Learn Next.js](https://nextjs.org/learn) - Interactive Next.js tutorial
+- [Tailwind CSS](https://tailwindcss.com/docs) - Utility-first CSS framework
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+This project is optimized for deployment on [Vercel](https://vercel.com). For the smoothest deployment experience:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your code to GitHub
+2. Import your repository to Vercel
+3. Let Vercel handle the rest with zero configuration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more deployment options.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
