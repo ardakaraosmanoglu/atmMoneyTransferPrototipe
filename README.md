@@ -10,6 +10,8 @@ A modern web application simulating ATM money transfer operations, built with Ne
 - Responsive design for all devices
 - Modern UI with Tailwind CSS
 
+![diagram](https://github.com/user-attachments/assets/8eaa0f01-6464-49a5-8874-379fbd789132)
+
 ## Technology Stack
 
 - [Next.js](https://nextjs.org) - React framework for production
@@ -21,7 +23,7 @@ A modern web application simulating ATM money transfer operations, built with Ne
 
 Before you begin, ensure you have installed:
 - Node.js (version 16.x or higher)
-- npm, yarn, pnpm, or bun package manager
+- npm, yarn, ppm, or bun package manager
 
 ## Installation
 
